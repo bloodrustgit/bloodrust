@@ -81,7 +81,7 @@ curcontent["kit-kaban"] = {
 	xhead: 'Платные киты',
 	xcon: '<div class="store-categories">\
 	<button class="btn btn-secondary" onclick="Open(\'kit-free\', false);">Стартовые</button>\
-	<button class="btn btn-secondary active">Кабанчик</button>\
+	<button class="btn btn-secondary active">Кабан</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-joker\', false);">Джокер</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-masnik\', false);">Мясник</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-smert\', false);">Смэрть</button>\
@@ -170,7 +170,7 @@ curcontent["kit-joker"] = {
 	xhead: 'Платные киты',
 	xcon: '<div class="store-categories">\
 	<button class="btn btn-secondary" onclick="Open(\'kit-free\', false);">Стартовые</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-kaban\', false);">Кабанчик</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-kaban\', false);">Кабан</button>\
 	<button class="btn btn-secondary active">Джокер</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-masnik\', false);">Мясник</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-smert\', false);">Смэрть</button>\
@@ -273,7 +273,7 @@ curcontent["kit-masnik"] = {
 	xhead: 'Платные киты',
 	xcon: '<div class="store-categories">\
 	<button class="btn btn-secondary" onclick="Open(\'kit-free\', false);">Стартовые</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-kaban\', false);">Кабанчик</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-kaban\', false);">Кабан</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-joker\', false);">Джокер</button>\
 	<button class="btn btn-secondary active">Мясник</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-smert\', false);">Смэрть</button>\
@@ -382,7 +382,7 @@ curcontent["kit-smert"] = {
 	xhead: 'Платные киты',
 	xcon: '<div class="store-categories">\
 	<button class="btn btn-secondary" onclick="Open(\'kit-free\', false);">Стартовые</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-kaban\', false);">Кабанчик</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-kaban\', false);">Кабан</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-joker\', false);">Джокер</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-masnik\', false);">Мясник</button>\
 	<button class="btn btn-secondary active">Смэрть</button>\
@@ -497,7 +497,7 @@ curcontent["kit-free"] = {
 	xhead: 'Стартовые киты',
 	xcon: '<div class="store-categories">\
 	<button class="btn btn-secondary active">Стартовые</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-kaban\', false);">Кабанчик</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-kaban\', false);">Кабан</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-joker\', false);">Джокер</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-masnik\', false);">Мясник</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-smert\', false);">Смэрть</button>\
