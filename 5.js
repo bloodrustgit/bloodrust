@@ -693,7 +693,7 @@ xcon: '<div class="xbox oplata_info">\
 					<button class="qiwi-submit-main" id="cent-submit-main" width="159px" type="submit">Оплатить</button>\
 				</div>\
 				<div class="payment-block">\
-			        <div class="payment-type payment-block-visa"></div><div class="payment-type payment-block-mastercard"></div><div class="payment-type payment-block-mir"></div>\
+			        <div class="payment-type payment-block-visa"></div><div class="payment-type payment-block-mastercard"></div>\
 			</div>\
 		</div>\
 	</form>\
