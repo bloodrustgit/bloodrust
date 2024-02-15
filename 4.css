@@ -215,8 +215,7 @@ button:focus {
 }
 .dropdown-menu button a { 
     color: #a1a1a1;
-    display:block;
-    padding: 5px 10px;
+    display: block;
     transition: all 0.1s
 }
 .dropdown-menu button a:hover { 
