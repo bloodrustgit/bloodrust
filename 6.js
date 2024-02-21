@@ -640,7 +640,7 @@ xcon: '<div class="xbox oplata_info">\
 <div class="forms-oplata-grid">\
 	<form onsubmit="return freekassaHandler(event)" class="qiwi-inp-form" id="fk-inp-form" method="get" target="_blank" action="https://pay.bloodrust.io/api/integrations/enot/pay-link">\
 		<div class="qiwi-inp-oplata" id="qiwi-inp-other">\
-			<div class="qiwi-widget-title">Карты & Qiwi<br><p>Cryptocurrency, СБП, PM</p></div>\
+			<div class="qiwi-widget-title">Карты & СБП<br><p>Cryptocurrency, Perfect Money</p></div>\
 			<div class="qiwi-inp-box">\
 				<label for="fk-donation-amount" class="qiwi-label">Amount</label>\
 				<div class="qiwi-rub">₽</div>\
