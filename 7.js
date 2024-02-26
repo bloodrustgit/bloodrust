@@ -864,8 +864,8 @@ function freekassaHandler(e){
 	qiwiFormHandle();
 	var inputval = document.getElementById('fk-donation-amount').value;
 	var inputfloat = parseFloat(inputval);
-	if(inputfloat < 50 || inputfloat > 15000 || isNaN(inputfloat)){
-		document.getElementById('fk-error-box').innerText = "От 50 до 15000 RUB";
+	if(inputfloat < 100 || inputfloat > 15000 || isNaN(inputfloat)){
+		document.getElementById('fk-error-box').innerText = "От 100 до 15000 RUB";
 		e.preventDefault();
 		return false;
 	}else{
