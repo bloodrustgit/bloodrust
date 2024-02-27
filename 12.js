@@ -729,7 +729,7 @@ xcon: '<div class="xbox oplata_info">\
      	<br>\
      	<blockquote class="spoil-Untext">от <b>100₽</b> - бонус <b>+10%</b> к сумме пополнения<br>от <b>300₽</b> - бонус <b>+15%</b> к сумме пополнения<br>от <b>1000₽</b> - бонус <b>+20%</b> к сумме пополнения<br>от <b>2000₽</b> - бонус <b>+25%</b> к сумме пополнения<br><br>⚠️ Бонусы не действуют при пополнении скинами</span>\
      	</blockquote>\
-	</div>\
+	</div></div>\
 	<div class="spoiler" style="margin-top: 10px;"><div class="x-spoiler">\
 	<input class="spoil-button" type="checkbox" tabindex="-1">\
      <div class="spoil-box">\
