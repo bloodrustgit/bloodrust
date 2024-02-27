@@ -1407,7 +1407,7 @@ label {
     background: linear-gradient(-45deg, #69b7eb, #b3dbd3, #f4d6db);
     background-size: 400% 400%;
     animation: gradient 5s ease infinite;
-    border-radius: 12px;
+    border-radius: 8px;
     color: white;
 }
 .product[href="/products/1057256"] .product__name:after {
