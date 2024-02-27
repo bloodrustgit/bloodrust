@@ -649,7 +649,7 @@ xcon: '<div class="xbox oplata_info">\
 		<a class="container-oplata-box" href="https://bloodstore.tebex.io/checkout/packages/add/5507691/single" target="_blank">\
 			<img alt="" src="https://i.imgur.com/bSNmagw.jpg" class="icon-user-oplata">\
 			<div class="textContainer-oplata">\
-				<span class="name-user">Tebex (укр/eu/снг)</span>\
+				<span class="name-user">Tebex (укр/снг/eu)</span>\
 				<span class="category-user">Visa, Mastercard, PayPal</span>\
 			</div>\
 		</a>\
@@ -728,6 +728,16 @@ xcon: '<div class="xbox oplata_info">\
      	<span class="spoil-head">Бонусы при пополнении</span>\
      	<br>\
      	<blockquote class="spoil-Untext">от <b>100₽</b> - бонус <b>+10%</b> к сумме пополнения<br>от <b>300₽</b> - бонус <b>+15%</b> к сумме пополнения<br>от <b>1000₽</b> - бонус <b>+20%</b> к сумме пополнения<br>от <b>2000₽</b> - бонус <b>+25%</b> к сумме пополнения<br><br>⚠️ Бонусы не действуют при пополнении скинами</span>\
+     	</blockquote>\
+	</div>\
+	<div class="spoiler" style="margin-top: 10px;"><div class="x-spoiler">\
+	<input class="spoil-button" type="checkbox" tabindex="-1">\
+     <div class="spoil-box">\
+     	<span class="spoil-close fa"></span>\
+     	<span class="spoil-open fa"></span>\
+     	<span class="spoil-head">Пополнение иностранными картами (Tebex)</span>\
+     	<br>\
+     	<blockquote class="spoil-Untext">Чтобы пополнить баланс картой европеского/американского/украинского или любого другого банка нужно использовать Tebex:<br>1. Нажмите на Tebex<br>2. Авторизуйтесь через аккаунт баланс которого хотите пополнить<br>3. Введите сумму в долларах<br>4. Заполните форму<br>5. Выберите способ пополнения и оплатите<br><br>Средства поступят на баланс в течение нескольких минут</span>\
      	</blockquote>\
 	</div>\
 </div>'
