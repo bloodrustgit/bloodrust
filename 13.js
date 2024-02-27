@@ -729,16 +729,6 @@ xcon: '<div class="xbox oplata_info">\
      	<br>\
      	<blockquote class="spoil-Untext">от <b>100₽</b> - бонус <b>+10%</b> к сумме пополнения<br>от <b>300₽</b> - бонус <b>+15%</b> к сумме пополнения<br>от <b>1000₽</b> - бонус <b>+20%</b> к сумме пополнения<br>от <b>2000₽</b> - бонус <b>+25%</b> к сумме пополнения<br><br>⚠️ Бонусы не действуют при пополнении скинами</span>\
      	</blockquote>\
-	</div></div>\
-	<div class="spoiler" style="margin-top: 10px;"><div class="x-spoiler">\
-	<input class="spoil-button" type="checkbox" tabindex="-1">\
-     <div class="spoil-box">\
-     	<span class="spoil-close fa"></span>\
-     	<span class="spoil-open fa"></span>\
-     	<span class="spoil-head">Пополнение иностранными картами (Tebex)</span>\
-     	<br>\
-     	<blockquote class="spoil-Untext">Чтобы пополнить баланс картой европеского/американского/украинского или любого другого банка нужно использовать Tebex:<br>1. Нажмите на Tebex<br>2. Авторизуйтесь через аккаунт баланс которого хотите пополнить<br>3. Введите сумму в долларах<br>4. Заполните форму<br>5. Выберите способ пополнения и оплатите<br><br>Средства поступят на баланс в течение нескольких минут</span>\
-     	</blockquote>\
 	</div>\
 </div>'
 };
