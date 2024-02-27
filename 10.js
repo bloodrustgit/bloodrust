@@ -649,7 +649,7 @@ xcon: '<div class="xbox oplata_info">\
 		<a class="container-oplata-box" href="https://bloodstore.tebex.io/checkout/packages/add/5507691/single" target="_blank">\
 			<img alt="" src="https://i.imgur.com/bSNmagw.jpg" class="icon-user-oplata">\
 			<div class="textContainer-oplata">\
-				<span class="name-user">Tebex (ua/eu/снг)</span>\
+				<span class="name-user">Tebex (укр/eu/снг)</span>\
 				<span class="category-user">Visa, Mastercard, PayPal</span>\
 			</div>\
 		</a>\
