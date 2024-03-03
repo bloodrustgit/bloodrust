@@ -2,7 +2,7 @@ var curcontent = new Array();
 
 curcontent["rules"] = {
 	xhead: 'Правила',
-	xcon: '<div class="xbox_custom_rules"><div class="content"><p class="MsoNormal"><span>Информация</span></p>\
+	xcon: '<div class="xbox_custom_rules"><div class="rules_content" style="padding: 0px 20px 20px 20px;"><p class="MsoNormal"><span>Информация</span></p>\
 <p><span class="rules_rule"><i>1.1</i></span> - Не знание правил не освобождает Вас от ответственности.</p>\
 <p><span class="rules_rule"><i>1.2</i></span> - Зайдя на сервер Вы автоматически соглашаетесь со всеми нижеперечисленными пунктами правил.</p>\
 <p><span class="rules_rule"><i>1.3</i></span> - <b>Если Вы уже были замечены с читами / макросами или использованием просвета на другом сервере / проекте и на вас есть пруфы - мы имеем право забанить Вас без проверки.</b></p>\
