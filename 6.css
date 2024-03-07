@@ -243,7 +243,7 @@ button:focus {
     animation: zoomIn 1s;
 }
 .dropdown-item:last-child {
-    border-radius: 0px 0px 15px 15px;
+    border-radius: 0px 0px 10px 10px;
 }
 
 /*Шапка*/
