@@ -49,16 +49,16 @@ curcontent["rules"] = {
 //<p style="text-align: center;"><u>При заходе на наши сервера вы автоматически соглашаетесь с правилами.</u></p>\
 
 curcontent["skins"] = {
-	xhead: 'Пополнение скинами напрямую',
+	xhead: 'Пополнение скинами',
 	xcon: '<div class="skin-content"><div class="spoiler"><div class="x-spoiler">\
 <input class="spoil-button" type="checkbox" tabindex="-1">\
-     <div class="spoil-box"><span class="spoil-close fa"></span><span class="spoil-open fa"></span><span class="spoil-head">Что значит пополнение напрямую?</span><br><blockquote class="spoil-Untext">Обычно пополнение скинами происходит через сторонние сервисы (SkinPay или Skins.Cash), но в этом случае игрок который пополняет баланс теряет около ~40% от цены скинов. Мы же хотим предложить вам пополнение баланса скинами практически по ценам с торговой площадки, без каких-либо посредников.</span></blockquote>\
+     <div class="spoil-box"><span class="spoil-close fa"></span><span class="spoil-open fa"></span><span class="spoil-head">Как происходит пополнение скинами?</span><br><blockquote class="spoil-Untext">После отправки обмена со скинами нашему боту, он определит цену каждого скина и зачислит на баланс пользователя сумму, составляющую 60% от средней стоимости скина за последний месяц на торговой площадке Steam. Например, если средняя стоимость скина на торговой площадке составляет 100 рублей, то на баланс пользователя будет зачислено 60 рублей.</span></blockquote>\
      </div></div>\
 <div class="x-spoiler">\
 <input class="spoil-button" type="checkbox" tabindex="-1">\
      <div class="spoil-box">\
-         <span class="spoil-close fa"></span><span class="spoil-open fa"></span><span class="spoil-head">Требования к обмену при пополнении напрямую</span><span class="skin-warning">обязательно прочти</span>\
-         <blockquote class="spoil-Untext">\» У вас не должно быть <a href="https://s3.bloodrust.io/trade_delay.jpg" target="_blank">удержания</a> обмена<br>» Принимаются скины только из <b>RUST</b> и <b>CS:GO</b><br>» В обмене не должно быть скинов из CS:GO дешевле <b>5 рублей</b><br>» Если скинов в обмене много - лучше отправлять частями<br>» Баланс будет пополнен только того аккаунта, с которого были отправлены скины</li></ol>\
+         <span class="spoil-close fa"></span><span class="spoil-open fa"></span><span class="spoil-head">Требования к обмену при пополнении</span><span class="skin-warning">обязательно прочти</span>\
+         <blockquote class="spoil-Untext">\» У вас не должно быть <a href="https://s3.bloodrust.io/trade_delay.jpg" target="_blank">удержания</a> обмена<br>» Принимаются скины только из <b>RUST</b> и <b>CS:GO</b><br>» В обмене не должно быть скинов из CS:GO дешевле <b>5-и рублей</b><br>» Если скинов в обмене много - лучше отправлять частями<br>» Баланс будет пополнен только того аккаунта, с которого были отправлены скины</li></ol>\
          </blockquote>\
      </div></div>\
 <div class="x-spoiler">\
