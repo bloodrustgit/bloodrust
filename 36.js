@@ -52,7 +52,7 @@ curcontent["skins"] = {
 	xhead: 'Пополнение скинами',
 	xcon: '<div class="skin-content"><div class="spoiler"><div class="x-spoiler">\
 <input class="spoil-button" type="checkbox" tabindex="-1">\
-     <div class="spoil-box"><span class="spoil-close fa"></span><span class="spoil-open fa"></span><span class="spoil-head">Как происходит пополнение скинами?</span><br><blockquote class="spoil-Untext">После отправки обмена нашему боту, он определит цену каждого скина и зачислит на баланс пользователя сумму, составляющую 70% от средней стоимости скинов за последний месяц на торговой площадке Steam. Например, если средняя стоимость скинов в обмене на торговой площадке составляет 100 рублей, то на баланс пользователя будет зачислено 70 рублей.</span></blockquote>\
+     <div class="spoil-box"><span class="spoil-close fa"></span><span class="spoil-open fa"></span><span class="spoil-head">Как формируется стоимость скинов?</span><br><blockquote class="spoil-Untext">После отправки обмена нашему боту, он определит цену каждого скина и зачислит на баланс пользователя сумму, составляющую 70% от средней стоимости скинов за последний месяц на торговой площадке Steam. Например, если средняя стоимость скинов в обмене на торговой площадке составляет 100 рублей, то на баланс пользователя будет зачислено 70 рублей.</span></blockquote>\
      </div></div>\
 <div class="x-spoiler">\
 <input class="spoil-button" type="checkbox" tabindex="-1">\
