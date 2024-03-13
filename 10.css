@@ -1700,7 +1700,7 @@ label {
     display: flex;
     flex-direction: column;
     height: 249px;
-    border-radius: 15px;
+    border-radius: 10px;
     margin-bottom: 0px;
     background-color: #fff;
     position: relative;
@@ -1829,7 +1829,7 @@ blockquote {
 .x-spoiler blockquote,
 .x-spoiler{
     padding:1em;
-    border-radius:15px;
+    border-radius:10px;
     -webkit-border-radius:15px;
     -khtml-border-radius:15px;
     -moz-border-radius:15px;
