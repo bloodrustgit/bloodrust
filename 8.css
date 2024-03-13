@@ -926,7 +926,7 @@ label {
     border: none;
     color: #fff;
     opacity: 1;
-    border-radius: 12px;
+    border-radius: 10px;
     transform: scale(1);
     transition: all 100ms ease-out;
 }
@@ -1048,7 +1048,7 @@ label {
     margin-top: 10px;
 }
 .modal .btn {
-    border-radius: 12px;
+    border-radius: 10px;
     cursor: pointer;
     padding: 10px 25px 10px 25px;
 }
