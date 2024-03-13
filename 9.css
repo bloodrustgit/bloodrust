@@ -291,7 +291,7 @@ button:focus {
     content: "\F002";
     background: #cdcdcd;
     padding: 10px;
-    border-radius: 12px;
+    border-radius: 10px;
     color: white;
     margin-left: -6px;
 }
@@ -342,7 +342,7 @@ select.form-control:not([size]):not([multiple]) {
 .product__discount {
     background: rgba(255,255,255,0.6);
     backdrop-filter: blur(5px);
-    border-radius: 12px;
+    border-radius: 10px;
     top: 10px;
     right: 10px;
     opacity: 1;
@@ -1066,13 +1066,13 @@ label {
 }
 .modal-body .input-group {
     border: solid #ebebeb 1px;
-    border-radius: 12px;
+    border-radius: 10px;
     margin-top: 10px;
     background: white;
 }
 .modal-footer .input-group {
     border: solid #ebebeb 1px;
-    border-radius: 12px;
+    border-radius: 10px;
 }
 .modal-item .modal-title, .modal-service .modal-title, .modal-blueprint .modal-title {
     font-size: 18px !important;
@@ -1082,7 +1082,7 @@ label {
     color: #000 !important;
     background: white;
     width: 100%;
-    border-radius: 12px;
+    border-radius: 10px;
     padding: 10px !important;
     border: solid #ebebeb 1px;
     text-transform: none !important;
@@ -1207,7 +1207,7 @@ label {
 }
 .rd-item {
     display: flex;
-    border-radius: 12px;
+    border-radius: 10px;
     background: #ffffff;
     border: solid #ebebeb 1px;
     text-align: initial;
@@ -1714,7 +1714,7 @@ label {
     padding: 16px;
     height: 73px;
     width: 100%;
-    border-radius: 12px;
+    border-radius: 10px;
     background: #fff;
     -webkit-box-sizing: border-box;
     text-align: initial;
@@ -1852,7 +1852,7 @@ blockquote {
     display: grid;
 }
 .btn-skin {
-    border-radius: 12px;
+    border-radius: 10px;
     cursor: pointer;
     color: white;
     background: #9ec483;
@@ -1905,7 +1905,7 @@ blockquote {
     margin-left: 0px;
     margin-right: 10px;
     padding: 16px;
-    border-radius: 12px;
+    border-radius: 10px;
     background: #fff;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -1960,7 +1960,7 @@ blockquote {
     margin-left: 0px;
     margin-right: 0px;
     padding: 16px;
-    border-radius: 12px;
+    border-radius: 10px;
     background: #fff;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -2021,7 +2021,7 @@ blockquote {
     margin-bottom: 10px;
     padding: 16px;
     width: unset;
-    border-radius: 12px;
+    border-radius: 10px;
     background: #fff;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -2037,7 +2037,7 @@ blockquote {
     margin-right: 0px;
     padding: 16px;
     width: unset;
-    border-radius: 12px;
+    border-radius: 10px;
     background: #fff;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -2641,7 +2641,7 @@ blockquote {
     justify-content: center;
     align-items: center;
     background: white;
-    border-radius: 12px;
+    border-radius: 10px;
     border: solid #ebebeb 1px;
     padding: 10px;
     gap: 8px;
