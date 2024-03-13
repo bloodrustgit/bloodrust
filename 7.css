@@ -863,7 +863,7 @@ select.form-control:not([size]):not([multiple]) {
 .table-striped .btn-success {
     background: #a6e170;
     border: none;
-    color: #749f4d;
+    color: #fff;
     opacity: 1;
     transform: scale(1);
     transition: all 100ms ease-out;
@@ -924,7 +924,7 @@ label {
 .btn-success {
     background: #a6e170;
     border: none;
-    color: #749f4d;
+    color: #fff;
     opacity: 1;
     border-radius: 12px;
     transform: scale(1);
@@ -933,7 +933,7 @@ label {
 .btn-success:hover, .btn-success:focus {
     background: #a6e170;
     border: none;
-    color: #749f4d;
+    color: #fff;
     opacity: 1;
     transform: scale(1);
     transition: all 100ms ease-out !important;
