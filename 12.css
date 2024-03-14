@@ -252,6 +252,7 @@ button:focus {
     margin-top: 85px;
     border-radius: 15px;
     opacity: 1;
+    background: white;
 }
 
 /*Инпут*/
