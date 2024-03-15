@@ -6,7 +6,7 @@ curcontent["rules"] = {
 <p><span class="rules_rule"><i>1.1</i></span> - Не знание правил не освобождает Вас от ответственности.</p>\
 <p><span class="rules_rule"><i>1.2</i></span> - Зайдя на сервер Вы автоматически соглашаетесь со всеми нижеперечисленными пунктами правил.</p>\
 <p><span class="rules_rule"><i>1.3</i></span> - Если Вы уже были замечены с читами / макросами или использованием просвета на другом сервере / проекте и на вас есть пруфы - мы имеем право забанить Вас без проверки.</p>\
-<p><span class="rules_rule"><i>1.4</i></span> - Администрация сама выбирает наказание для игрока в зависимости от степени нарушения и обстоятельств. Нарушитель может получить как предупреждение, так и перманентный бан (временных блокировок нет). Блокировка выдаётся на всех серверах проекта, например, нарушив правила на Purple сервере — не получится пойти спокойно играть на Red.</p>\
+<p><span class="rules_rule"><i>1.4</i></span> - Администрация сама выбирает наказание для игрока в зависимости от степени нарушения и обстоятельств. Нарушитель может получить как предупреждение, так и перманентный бан (временных блокировок нет). Блокировка выдаётся на всех серверах проекта.</p>\
 <p><span class="rules_rule"><i>1.5</i></span> - Администрация не компенсирует игровые ценности, утраченные по причине вашей ошибки, технических проблем на сервере/хостинге, багов игры или контакта с нарушителями.</p>\
 <p><span class="rules_rule"><i>1.6</i></span> - Администрация не вмешивается во взаимоотношения игроков, за тех с кем вы играете ответственны только Вы, поэтому в случае если игрок вас обманет — ему ничего за это не будет.</p>\
 <p><span class="rules_rule"><i>1.7</i></span> - Вы несете ответственность за все свои аккаунты. Получив бан на одном аккаунте - Вы получите его и на последующих аккаунтах. То же самое будет если на одном из ваших аккаунтах имеется игровая блокировка (EAC).</p>\
@@ -168,11 +168,13 @@ curcontent["kit-kaban"] = {
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/hatchet.png">\
 <div class="kit-item__quantity">x1</div></div></div>\
 </div></div></div>\
-<div class="xbox_custom_kits" ><div class="serverheader">Кит "Дом" - <span>Откат 72ч</span></div>\
+<div class="xbox_custom_kits" ><div class="serverheader">Кит "Прочее" - <span>Откат 48ч</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/workbench1.png">\
 <div class="kit-item__quantity">x1</div></div></div>\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/coffin.storage.png">\
+<div class="kit-item__quantity">x1</div></div></div>\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://moscow-cdn.ru/rust/items/icons256/keycard_green.png">\
 <div class="kit-item__quantity">x1</div></div></div>\
 </div></div></div>'
 };
@@ -259,7 +261,7 @@ curcontent["kit-joker"] = {
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/explosive.satchel.png">\
 <div class="kit-item__quantity">x4</div></div></div>\
 </div></div></div>\
-<div class="xbox_custom_kits" ><div class="serverheader">Кит "Дом" - <span>Откат 72ч</span></div>\
+<div class="xbox_custom_kits" ><div class="serverheader">Кит "Прочее" - <span>Откат 48ч</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/workbench2.png">\
 <div class="kit-item__quantity">x1</div></div></div>\
@@ -267,8 +269,12 @@ curcontent["kit-joker"] = {
 <div class="kit-item__quantity">x1</div></div></div>\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/coffin.storage.png">\
 <div class="kit-item__quantity">x1</div></div></div>\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://moscow-cdn.ru/rust/items/icons256/keycard_green.png">\
+<div class="kit-item__quantity">x1</div></div></div>\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://moscow-cdn.ru/rust/items/icons256/keycard_blue.png">\
+<div class="kit-item__quantity">x1</div></div></div>\
 </div></div></div>\
-<div class="xbox_custom_kits" ><div class="serverheader">Кит "Магический" (один на все привилегии) - <span>Откат 24ч</span></div>\
+<div class="xbox_custom_kits" ><div class="serverheader">Кит "Уникальный" (один на все привилегии) - <span>Откат 24ч</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://pic.moscow.ovh/images/2023/05/08/a09fbaa344230b0cb32acf00c542d654.png">\
 <div class="kit-item__quantity">x1</div></div></div>\
@@ -366,7 +372,7 @@ curcontent["kit-masnik"] = {
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/explosive.timed.png">\
 <div class="kit-item__quantity">x2</div></div></div>\
 </div></div></div>\
-<div class="xbox_custom_kits" ><div class="serverheader">Кит "Дом" - <span>Откат 72ч</span></div>\
+<div class="xbox_custom_kits" ><div class="serverheader">Кит "Прочее" - <span>Откат 48ч</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/workbench3.png">\
 <div class="kit-item__quantity">x1</div></div></div>\
@@ -376,8 +382,12 @@ curcontent["kit-masnik"] = {
 <div class="kit-item__quantity">x1</div></div></div>\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/coffin.storage.png">\
 <div class="kit-item__quantity">x2</div></div></div>\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://moscow-cdn.ru/rust/items/icons256/keycard_green.png">\
+<div class="kit-item__quantity">x1</div></div></div>\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://moscow-cdn.ru/rust/items/icons256/keycard_blue.png">\
+<div class="kit-item__quantity">x1</div></div></div>\
 </div></div></div>\
-<div class="xbox_custom_kits" ><div class="serverheader">Кит "Магический" (один на все привилегии) - <span>Откат 24ч</span></div>\
+<div class="xbox_custom_kits" ><div class="serverheader">Кит "Уникальный" (один на все привилегии) - <span>Откат 24ч</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://pic.moscow.ovh/images/2023/05/08/a09fbaa344230b0cb32acf00c542d654.png">\
 <div class="kit-item__quantity">x1</div></div></div>\
@@ -479,7 +489,7 @@ curcontent["kit-smert"] = {
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/ammo.rocket.basic.png">\
 <div class="kit-item__quantity">x4</div></div></div>\
 </div></div></div>\
-<div class="xbox_custom_kits" ><div class="serverheader">Кит "Дом" - <span>Откат 72ч</span></div>\
+<div class="xbox_custom_kits" ><div class="serverheader">Кит "Прочее" - <span>Откат 48ч</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/workbench3.png">\
 <div class="kit-item__quantity">x1</div></div></div>\
@@ -491,8 +501,14 @@ curcontent["kit-smert"] = {
 <div class="kit-item__quantity">x3</div></div></div>\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/bed.png">\
 <div class="kit-item__quantity">x1</div></div></div>\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://moscow-cdn.ru/rust/items/icons256/keycard_green.png">\
+<div class="kit-item__quantity">x1</div></div></div>\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://moscow-cdn.ru/rust/items/icons256/keycard_blue.png">\
+<div class="kit-item__quantity">x1</div></div></div>\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://moscow-cdn.ru/rust/items/icons256/keycard_red.png">\
+<div class="kit-item__quantity">x1</div></div></div>\
 </div></div></div>\
-<div class="xbox_custom_kits" ><div class="serverheader">Кит "Магический" (один на все привилегии) - <span>Откат 24ч</span></div>\
+<div class="xbox_custom_kits" ><div class="serverheader">Кит "Уникальный" (один на все привилегии) - <span>Откат 24ч</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://pic.moscow.ovh/images/2023/05/08/a09fbaa344230b0cb32acf00c542d654.png">\
 <div class="kit-item__quantity">x1</div></div></div>\
