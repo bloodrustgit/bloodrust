@@ -283,7 +283,7 @@ curcontent["kit-joker"] = {
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://pic.moscow.ovh/images/2023/05/08/e17e11ec3fc7c8b9d79366d10325a36b.png">\
 <div class="kit-item__quantity">x2</div></div></div>\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://pic.moscow.ovh/images/2024/03/15/3476e67e7b2e9b2661a42e76604e6c64.png">\
-<div class="kit-item__quantity">x2</div></div></div>\
+<div class="kit-item__quantity">x1</div></div></div>\
 </div></div></div>'
 };
 
@@ -398,7 +398,7 @@ curcontent["kit-masnik"] = {
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://pic.moscow.ovh/images/2023/05/08/e17e11ec3fc7c8b9d79366d10325a36b.png">\
 <div class="kit-item__quantity">x2</div></div></div>\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://pic.moscow.ovh/images/2024/03/15/3476e67e7b2e9b2661a42e76604e6c64.png">\
-<div class="kit-item__quantity">x2</div></div></div>\
+<div class="kit-item__quantity">x1</div></div></div>\
 </div></div></div>'
 };
 
@@ -521,7 +521,7 @@ curcontent["kit-smert"] = {
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://pic.moscow.ovh/images/2023/05/08/e17e11ec3fc7c8b9d79366d10325a36b.png">\
 <div class="kit-item__quantity">x2</div></div></div>\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://pic.moscow.ovh/images/2024/03/15/3476e67e7b2e9b2661a42e76604e6c64.png">\
-<div class="kit-item__quantity">x2</div></div></div>\
+<div class="kit-item__quantity">x1</div></div></div>\
 </div></div></div>'
 };
 
