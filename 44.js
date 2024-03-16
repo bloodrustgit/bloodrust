@@ -671,6 +671,24 @@ curcontent["Oplata"] = {
 xhead: 'Выберите метод (Choose method)',
 xcon: '<div class="xbox oplata_info">\
 <div class="forms-oplata-grid">\
+	<form onsubmit="return centHandler(event)" class="qiwi-inp-form" id="cent-inp-form" method="get" target="_blank" action="https://pay.bloodrust.io/api/integrations/card-link/pay-link">\
+		<div class="qiwi-inp-oplata" id="qiwi-inp-other">\
+			<div class="qiwi-widget-title">Cardlink<br><p>иностранные карты</p></div>\
+				<div class="qiwi-inp-box">\
+					<label for="cent-donation-amount" class="qiwi-label">Сумма</label>\
+					<div class="qiwi-rub">₽</div>\
+					<input type="number" placeholder="Сумма" id="cent-donation-amount" name="sum" required="" value="">\
+					<input type="hidden" id="cent-donation-account" name="acc" value="">\
+					<div class="qiwi-error-box" id="cent-error-box"></div>\
+				</div>\
+				<div class="qiwi-button-box">\
+					<button class="qiwi-submit-main" id="cent-submit-main" width="159px" type="submit">Оплатить</button>\
+				</div>\
+				<div class="payment-block">\
+			        <div class="payment-type payment-block-visa"></div><div class="payment-type payment-block-mastercard"></div>\
+			</div>\
+		</div>\
+	</form>\
 	<div class="container-oplata-btn">\
 		<a class="container-oplata-box" id="qiwi-inp-other2">\
 			<img alt="" src="https://i.imgur.com/kb8M7vg.png" class="icon-user-oplata">\
@@ -709,24 +727,6 @@ xcon: '<div class="xbox oplata_info">\
 			</div>\
 			<div class="payment-block">\
 		        <div class="payment-type payment-block-mastercard"></div><div class="payment-type payment-block-visa"></div><div class="payment-type payment-block-crypto"></div>\
-			</div>\
-		</div>\
-	</form>\
-	<form onsubmit="return centHandler(event)" class="qiwi-inp-form" id="cent-inp-form" method="get" target="_blank" action="https://pay.bloodrust.io/api/integrations/card-link/pay-link">\
-		<div class="qiwi-inp-oplata" id="qiwi-inp-other">\
-			<div class="qiwi-widget-title">Cardlink<br><p>иностранные карты</p></div>\
-				<div class="qiwi-inp-box">\
-					<label for="cent-donation-amount" class="qiwi-label">Сумма</label>\
-					<div class="qiwi-rub">₽</div>\
-					<input type="number" placeholder="Сумма" id="cent-donation-amount" name="sum" required="" value="">\
-					<input type="hidden" id="cent-donation-account" name="acc" value="">\
-					<div class="qiwi-error-box" id="cent-error-box"></div>\
-				</div>\
-				<div class="qiwi-button-box">\
-					<button class="qiwi-submit-main" id="cent-submit-main" width="159px" type="submit">Оплатить</button>\
-				</div>\
-				<div class="payment-block">\
-			        <div class="payment-type payment-block-visa"></div><div class="payment-type payment-block-mastercard"></div>\
 			</div>\
 		</div>\
 	</form>\
