@@ -58,7 +58,7 @@ curcontent["skins"] = {
 <div class="x-spoiler">\
 <input class="spoil-button" type="checkbox" tabindex="-1">\
      <div class="spoil-box">\
-         <span class="spoil-close fa"></span><span class="spoil-open fa"></span><span class="spoil-head">Требования к обмену при пополнении</span>\
+         <span class="spoil-close fa"></span><span class="spoil-open fa"></span><span class="spoil-head">Требования к обмену</span>\
          <blockquote class="spoil-Untext">\» У вас не должно быть <a href="https://s3.bloodrust.io/trade_delay.jpg" target="_blank">удержания</a> обмена<br>» Принимаются скины только из <b>RUST</b> и <b>CS:GO</b><br>» В обмене не должно быть скинов из CS:GO дешевле <b>5-и рублей</b><br>» Если скинов в обмене много - лучше отправлять частями<br>» Баланс будет пополнен только того аккаунта, с которого были отправлены скины</li></ol>\
          </blockquote>\
      </div></div>\
