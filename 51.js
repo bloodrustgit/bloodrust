@@ -575,6 +575,20 @@ curcontent["kit-free"] = {
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/furnace.png">\
 <div class="kit-item__quantity">25%</div></div></div>\
 </div></div>\
+<div class="xbox_custom_kits" >\
+<div class="serverheader">Кит "Еда" - <span>Откат 30м</span></div>\
+<div class="kit_set"><div class="kit-items">\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://pic.moscow.ovh/images/2023/05/08/f20f1e507da7559c9b61ea579b95d6e2.png">\
+<div class="kit-item__quantity">x1</div></div></div>\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/wolfmeat.cooked.png">\
+<div class="kit-item__quantity">x2</div></div></div>\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/apple.png">\
+<div class="kit-item__quantity">x4</div></div></div>\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/jar.pickle.png">\
+<div class="kit-item__quantity">x2</div></div></div>\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/blueberries.png">\
+<div class="kit-item__quantity">x2 - 50%</div></div></div>\
+</div></div>\
 <div class="serverheader">Кит за "#bloodrust" в нике - <span>Откат 48ч</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/deer.skull.mask.png">\
