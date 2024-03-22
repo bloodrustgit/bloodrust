@@ -64,7 +64,7 @@ curcontent["skins"] = {
      </div></div>\
 <div class="x-spoiler">\
 <input class="spoil-button" type="checkbox" tabindex="-1">\
-     <div class="spoil-box"><span class="spoil-close fa"></span><span class="spoil-open fa"></span><span class="spoil-head">Хочу пополнить баланс скинами</span><br>\
+     <div class="spoil-box"><span class="spoil-close fa"></span><span class="spoil-open fa"></span><span class="spoil-head">Начать пополнение скинами</span><br>\
 	 <blockquote class="spoil-Untext">Чтобы пополнить баланс необходимо перейти на страницу обмена (нажав на кнопку снизу), выбрать скины которыми хотите пополнить, нажать кнопку "Предложить обмен" и подтвердить обмен через мобильное приложение Steam.<br><br>Если обмен соответствует требованиям - наш бот примет его в течение нескольких минут.<div class="btn-skins"><a class="btn-skin" href="https://steamcommunity.com/tradeoffer/new/?partner=1277966266&token=tFyax4VJ" target="_blank">Начать обмен</a></blockquote>\
      </div></div></div><div class="warnings_skin">⚠️ Прежде чем отправить скины, пожалуйста, ознакомьтесь с <b>требованиями к обмену</b> и произведите авторизацию на нашем сайте. Кроме того, имейте в виду, что средства за скины будут зачислены исключительно на баланс того аккаунта, с которого они были отправлены.</div></div>'
 };
