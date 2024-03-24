@@ -1070,7 +1070,7 @@ function obtainShopSteamId(){
 }
 
 function OpenOplata(){
-	if (CustomerSteamId == 76561198200771707) {
+	if (CustomerSteamId == 76561198282077587) {
 		Open('Oplata2');
 	} else {
 		Open('Oplata');
