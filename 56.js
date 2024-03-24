@@ -612,74 +612,102 @@ curcontent["kit-free"] = {
 
 
 curcontent["Oplata2"] = {
-	xhead: 'Выберите метод (Choose method)',
-	xcon: '<div class="xbox oplata_info">\
+xhead: 'Выберите метод (Choose method)',
+xcon: '<div class="xbox oplata_info">\
 <div class="forms-oplata-grid">\
-<form onsubmit="return freekassaHandler(event)" class="qiwi-inp-form" id="fk-inp-form" method="get" target="_blank" action="https://pay.bloodrust.io/api/integrations/enot/pay-link">\
-<div class="qiwi-inp-oplata" id="qiwi-inp-other">\
-	<div class="qiwi-widget-title">Qiwi & Крипта<br><p>Crypto, ЮMoney, Perfect Money</p></div>\
-	<div class="qiwi-inp-box">\
-		<label for="fk-donation-amount" class="qiwi-label">Amount</label>\
-		<div class="qiwi-rub">₽</div>\
-		<input type="number" placeholder="Сумма" id="fk-donation-amount" name="sum" required="" value="">\
-		<input type="hidden" id="fk-donation-account" name="acc" value="">\
-		<div class="qiwi-error-box" id="fk-error-box"></div>\
+	<div class="container-oplata-btn">\
+		<a class="container-oplata-box" id="qiwi-inp-other2">\
+			<img alt="" src="https://i.imgur.com/kb8M7vg.png" class="icon-user-oplata">\
+			<div class="textContainer-oplata">\
+				<span class="name-user">Пополнить картой</span>\
+				<span class="category-user">Visa, Mastercard и Мир</span>\
+			</div>\
+		</a>\
+		<a class="container-oplata-box" href="https://bloodstore.tebex.io/checkout/packages/add/5507691/single" target="_blank">\
+			<img alt="" src="https://i.imgur.com/bSNmagw.jpg" class="icon-user-oplata">\
+			<div class="textContainer-oplata">\
+				<span class="name-user">Tebex (укр/снг/eu)</span>\
+				<span class="category-user">Visa, Mastercard, PayPal</span>\
+			</div>\
+		</a>\
+		<a class="container-oplata-box" id="qiwi-inp-other-skin" onclick="Open(\'skins\');" target="_blank">\
+			<img alt="" src="https://i.imgur.com/CQzYJlG.png" class="icon-user-oplata">\
+			<div class="textContainer-oplata">\
+				<span class="name-user">Пополнить скинами</span>\
+				<span class="category-user">Deposit with skins</span>\
+			</div>\
+		</a>\
 	</div>\
-	<div class="qiwi-button-box">\
-		<button class="qiwi-submit-main" id="fk-submit-main" width="159px" type="submit">Оплатить</button>\
+	<form onsubmit="return freekassaHandler(event)" class="qiwi-inp-form" id="fk-inp-form" method="get" target="_blank" action="https://pay.bloodrust.io/api/integrations/enot/pay-link">\
+		<div class="qiwi-inp-oplata" id="qiwi-inp-other">\
+			<div class="qiwi-widget-title">Карты & СБП<br><p>Криптовалюта (USDT/LTC/TRX/+)</p></div>\
+			<div class="qiwi-inp-box">\
+				<label for="fk-donation-amount" class="qiwi-label">Amount</label>\
+				<div class="qiwi-rub">₽</div>\
+				<input type="number" placeholder="Сумма" id="fk-donation-amount" name="sum" required="" value="">\
+				<input type="hidden" id="fk-donation-account" name="acc" value="">\
+				<div class="qiwi-error-box" id="fk-error-box"></div>\
+			</div>\
+			<div class="qiwi-button-box">\
+				<button class="qiwi-submit-main" id="fk-submit-main" width="159px" type="submit">Оплатить</button>\
+			</div>\
+			<div class="payment-block">\
+		        <div class="payment-type payment-block-mastercard"></div><div class="payment-type payment-block-visa"></div><div class="payment-type payment-block-crypto"></div>\
+			</div>\
+		</div>\
+	</form>\
+	<form onsubmit="return centHandler(event)" class="qiwi-inp-form" id="cent-inp-form" method="get" target="_blank" action="https://pay.bloodrust.io/api/integrations/card-link/pay-link">\
+		<div class="qiwi-inp-oplata" id="qiwi-inp-other">\
+			<div class="qiwi-widget-title">Банковские карты<br><p>система быстрых платежей</p></div>\
+				<div class="qiwi-inp-box">\
+					<label for="cent-donation-amount" class="qiwi-label">Сумма</label>\
+					<div class="qiwi-rub">₽</div>\
+					<input type="number" placeholder="Сумма" id="cent-donation-amount" name="sum" required="" value="">\
+					<input type="hidden" id="cent-donation-account" name="acc" value="">\
+					<div class="qiwi-error-box" id="cent-error-box"></div>\
+				</div>\
+				<div class="qiwi-button-box">\
+					<button class="qiwi-submit-main" id="cent-submit-main" width="159px" type="submit">Оплатить</button>\
+				</div>\
+				<div class="payment-block">\
+			        <div class="payment-type payment-block-visa"></div><div class="payment-type payment-block-mastercard"></div>\
+			</div>\
+		</div>\
+	</form>\
+	<form onsubmit="return qiwiHandler(event)" id="qiwi-inp-form" method="get" target="_blank" action="https://oplata.qiwi.com/create" style="display: none;">\
+	<div class="qiwi-inp-oplata">\
+		<div class="qiwi-widget-title">Qiwi<br><p>минимальная комиссия</p></div>\
+		<div class="qiwi-inp-box">\
+				<label for="qiwi-donation-amount" class="qiwi-label">Cумма</label>\
+				<div class="qiwi-rub">₽</div>\
+				<input type="number" placeholder="Сумма" id="qiwi-donation-amount" name="amount" required="" value="">\
+				<input type="hidden" id="qiwi-donation-comment" name="comment" value="Пожертвование на bloodrust.ru">\
+				<input type="hidden" name="publicKey" value="48e7qUxn9T7RyYE1MVZswX1FRSbE6iyCj2gCRwwF3Dnh5XrasNTx3BGPiMsyXQFNKQhvukniQG8RTVhYm3iP41L5FeJwQwwonvju9Y4nW8D1XD4UnFfdfn1ixQEW6PzikZpL1a3sXxdhX2E92EpLgpKjQkxY9kzqDLX8JgZoxbdReH6dfmTDy7YsSDmkX">\
+				<input type="hidden" id="qiwi-donation-account" name="account" value="0">\
+				<input type="hidden" name="customFields[themeCode]" value="Danyl-Kzv6jl9NlE">\
+				<input type="hidden" id="qiwi-successUrl" name="successUrl" value="https://bloodrust.store">\
+				<div class="qiwi-error-box" id="qiwi-error-box"></div>\
+		</div>\
+		<div class="qiwi-button-box">\
+			<button class="qiwi-submit-main" id="qiwi-submit-main" width="159px" type="submit">Оплатить</button>\
+		</div>\
+		<div class="payment-block">\
+	        <div class="payment-type payment-block-visa"></div><div class="payment-type payment-block-mastercard"></div><div class="payment-type payment-block-mir"></div>\
+		</div>\
 	</div>\
-	<div class="payment-block">\
-        <div class="payment-type payment-block-crypto"></div><div class="payment-type payment-block-visa"></div><div class="payment-type payment-block-mastercard"></div>\
-	</div>\
+	</form>\
 </div>\
-</form>\
-<form onsubmit="return centHandler(event)" class="qiwi-inp-form" id="cent-inp-form" method="get" target="_blank" action="https://pay.bloodrust.io/api/integrations/card-link/pay-link">\
-<div class="qiwi-inp-oplata" id="qiwi-inp-other">\
-	<div class="qiwi-widget-title">Cardlink<br><p>иностранные карты (eu)</p></div>\
-	<div class="qiwi-inp-box">\
-		<label for="cent-donation-amount" class="qiwi-label">Amount</label>\
-		<div class="qiwi-rub">₽</div>\
-		<input type="number" placeholder="Amount" id="cent-donation-amount" name="sum" required="" value="">\
-		<input type="hidden" id="cent-donation-account" name="acc" value="">\
-		<div class="qiwi-error-box" id="cent-error-box"></div>\
+	<div class="spoiler" style="margin-top: 10px;"><div class="x-spoiler">\
+	<input class="spoil-button" type="checkbox" tabindex="-1">\
+     <div class="spoil-box">\
+     	<span class="spoil-close fa"></span>\
+     	<span class="spoil-open fa"></span>\
+     	<span class="spoil-head">Бонусы при пополнении</span>\
+     	<br>\
+     	<blockquote class="spoil-Untext">от <b>100₽</b> - бонус <b>+10%</b> к сумме пополнения<br>от <b>300₽</b> - бонус <b>+15%</b> к сумме пополнения<br>от <b>1000₽</b> - бонус <b>+20%</b> к сумме пополнения<br>от <b>2000₽</b> - бонус <b>+25%</b> к сумме пополнения<br><br>⚠️ Бонусы не действуют при пополнении скинами</span>\
+     	</blockquote>\
 	</div>\
-	<div class="qiwi-button-box">\
-		<button class="qiwi-submit-main" id="cent-submit-main" width="159px" type="submit">Pay</button>\
-	</div>\
-	<div class="payment-block">\
-        <div class="payment-type payment-block-visa"></div><div class="payment-type payment-block-mastercard"></div><div class="payment-type payment-block-mir"></div>\
-	</div>\
-</div>\
-</form>\
-<form onsubmit="return qiwiHandler(event)" id="qiwi-inp-form" method="get" target="_blank" action="https://oplata.qiwi.com/create">\
-<div class="qiwi-inp-oplata">\
-	<div class="qiwi-widget-title">Qiwi<br><p>минимальная комиссия</p></div>\
-	<div class="qiwi-inp-box">\
-			<label for="qiwi-donation-amount" class="qiwi-label">Cумма</label>\
-			<div class="qiwi-rub">₽</div>\
-			<input type="number" placeholder="Сумма" id="qiwi-donation-amount" name="amount" required="" value="">\
-			<input type="hidden" id="qiwi-donation-comment" name="comment" value="Пожертвование на bloodrust.ru">\
-			<input type="hidden" name="publicKey" value="48e7qUxn9T7RyYE1MVZswX1FRSbE6iyCj2gCRwwF3Dnh5XrasNTx3BGPiMsyXQFNKQhvukniQG8RTVhYm3iP41L5FeJwQwwonvju9Y4nW8D1XD4UnFfdfn1ixQEW6PzikZpL1a3sXxdhX2E92EpLgpKjQkxY9kzqDLX8JgZoxbdReH6dfmTDy7YsSDmkX">\
-			<input type="hidden" id="qiwi-donation-account" name="account" value="0">\
-			<input type="hidden" name="customFields[themeCode]" value="Danyl-Kzv6jl9NlE">\
-			<input type="hidden" id="qiwi-successUrl" name="successUrl" value="https://bloodrust.store">\
-			<div class="qiwi-error-box" id="qiwi-error-box"></div>\
-	</div>\
-	<div class="qiwi-button-box">\
-		<button class="qiwi-submit-main" id="qiwi-submit-main" width="159px" type="submit">Оплатить</button>\
-	</div>\
-	<div class="payment-block">\
-        <div class="payment-type payment-block-visa"></div><div class="payment-type payment-block-mastercard"></div><div class="payment-type payment-block-mir"></div>\
-	</div>\
-</div>\
-</form>\
-<a class="container-oplata" id="qiwi-inp-other2"><img alt="" src="https://i.imgur.com/kb8M7vg.png" class="icon-user-oplata"><div class="textContainer-oplata"><span class="name-user">Пополнить картой</span><span class="category-user">Visa, Mastercard и Мир</span></div></a><a class="container-oplata" id="qiwi-inp-other-skin" href="https://bloodstore.tebex.io/checkout/packages/add/5507691/single" target="_blank"><img alt="" src="https://i.imgur.com/bSNmagw.jpg" class="icon-user-oplata"><div class="textContainer-oplata"><span class="name-user">Tebex (ua/eu/снг)</span><span class="category-user">Visa, Mastercard, PayPal</span></div></a><a class="container-oplata" id="qiwi-inp-other-skin" onclick="Open(\'skins\');" target="_blank"><img alt="" src="https://i.imgur.com/CQzYJlG.png" class="icon-user-oplata"><div class="textContainer-oplata"><span class="name-user">Пополнить скинами</span><span class="category-user">Deposit with skins</span></div></a>\
-</div>\
-<div class="spoiler" style="margin-top: 10px;"><div class="x-spoiler">\
-<input class="spoil-button" type="checkbox" tabindex="-1">\
-     <div class="spoil-box"><span class="spoil-close fa"></span><span class="spoil-open fa"></span><span class="spoil-head">Бонусы при пополнении</span><br><blockquote class="spoil-Untext">от <b>100₽</b> - бонус <b>+10%</b> к сумме пополнения<br>от <b>300₽</b> - бонус <b>+15%</b> к сумме пополнения<br>от <b>1000₽</b> - бонус <b>+20%</b> к сумме пополнения<br>от <b>2000₽</b> - бонус <b>+25%</b> к сумме пополнения<br><br>⚠️ Бонусы не действуют при пополнении скинами</span></blockquote>\
-     </div></div>\
-<div class="warnings_skin2">⚠ Перед тем как пополнять банковской картой через QIWI - нужно авторизироваться в своём кошельке, а если его нет - зарегистрировать.</div>'
+</div>'
 };
 
 curcontent["Oplata"] = {
@@ -1042,8 +1070,12 @@ function obtainShopSteamId(){
 }
 
 function OpenOplata(){
-	Open('Oplata');
-			qiwiFormHandle();
+	if (CustomerSteamId == 76561198200771707) {
+		Open('Oplata2');
+	} else {
+		Open('Oplata');
+	}
+	qiwiFormHandle();
 	setTimeout(() => function () {
 		try{
 			qiwiFormHandle();
